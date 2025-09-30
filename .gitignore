@@ -1,0 +1,10 @@
+debian/*
+!debian/*install
+!debian/*postinst
+!debian/*gsettings-override
+!debian/changelog
+!debian/control
+!debian/copyright
+!debian/links
+!debian/rules
+!debian/source

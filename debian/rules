@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+export DESTDIR = debian/tmp
+INSTALLDIR = "$(DESTDIR)/usr/share/cosmic-justfiles/"
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	mkdir -p "$(INSTALLDIR)"
+	install -Dm0644 cargo.just "$(INSTALLDIR)/cargo.just"

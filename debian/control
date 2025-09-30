@@ -1,0 +1,13 @@
+Source: cosmic-justfiles
+Section: devel
+Priority: optional
+Maintainer: System76 <info@system76.com>
+Build-Depends:
+  debhelper (>= 11),
+  debhelper-compat (= 11),
+Standards-Version: 4.3.0
+Homepage: https://github.com/pop-os/cosmic-justfiles
+
+Package: cosmic-justfiles
+Architecture: all
+Description: Justfile scripts shared between COSMIC and Pop!_OS projects.
