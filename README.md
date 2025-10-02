@@ -5,7 +5,7 @@ Shared justfiles used by COSMIC and Pop!_OS projects.
 ## Import via curl fetch
 
 ```just
-mod cargo 'cargo.just'
+mod? cargo 'cargo.just'
 
 fetch:
     curl -o cargo.just https://raw.githubusercontent.com/pop-os/cosmic-justfiles/master/cargo.just
